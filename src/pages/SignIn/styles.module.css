@@ -1,0 +1,40 @@
+.formInput {
+    border: 1px solid gray;
+    border-left: 3px solid black;
+    height: 50px;
+}
+
+.formButton {
+    border-radius: 0 !important;
+    height: 50px;
+}
+
+.signUpLink {
+    text-decoration: "none";
+    margin-left: "10px"
+}
+
+.parent {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.loginContainer {
+    width: 50% !important;
+    max-width: 50% !important;
+}
+
+@media only screen and (max-width: 768px) {
+    .loginContainer {
+        width: 90% !important;
+        max-width: 90% !important;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .loginContainer {
+        width: 90% !important;
+        max-width: 90% !important;
+    }
+}

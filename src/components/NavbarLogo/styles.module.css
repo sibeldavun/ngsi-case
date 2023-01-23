@@ -1,0 +1,18 @@
+
+.logoTitle {
+  text-align: left;
+  letter-spacing: 3.64px;
+  color: #000000;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.navbarLogoBorder{
+  border-right: 1px solid  #dfdfdf;
+}
+
+.item{
+  display: flex;
+  align-items: center;
+}
